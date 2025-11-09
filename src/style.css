@@ -1,0 +1,16 @@
+/* Image Carousel 01 - style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, san-serif;
+  color: black;
+  background: white;
+}
+
+:root {
+  --image-width: 300px;
+  --image-height: 500px;
+  --button-height: 50px;
+}
