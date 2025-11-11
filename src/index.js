@@ -27,7 +27,9 @@ Array.from(dotGrp).forEach((elem) => {
   });
 });
 
+function showSlides(n) {
 
+}
 
 function runShow() {
   slideIndex++;
