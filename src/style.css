@@ -58,3 +58,23 @@ img {
   object-fit: contain;
 }
 
+.navigation.left {
+  grid-area: left;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 7;
+}
+
+.navigation.right {
+  grid-area: right;
+  grid-column: 8 / span 1;
+  grid-row: 1 / span 7;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32%;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
