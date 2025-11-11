@@ -34,3 +34,7 @@ function runShow() {
   showSlides(slideIndex);
 }
 
+function resetInterval() {
+  clearInterval(interval);
+  interval = setInterval(runShow, timeInterval);
+}
