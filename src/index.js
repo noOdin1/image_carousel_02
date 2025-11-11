@@ -2,3 +2,4 @@
 import "./style.css";
 
 let slideIndex = 1;
+let timeInterval = 2000;
