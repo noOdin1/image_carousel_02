@@ -32,6 +32,9 @@ function showSlides(n) {
   let dots = document.getElementsByClassName("dot");
   slideIndex = n > slides.length ? 1 : n < 1 ? slides.length : n;
 
+  Array.from(slides).forEach((item) => {
+    item.style.display = "none";
+  });
 }
 
 function runShow() {
