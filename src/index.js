@@ -19,3 +19,11 @@ Array.from(btns).forEach((item) => {
   });
 });
 
+let dotGrp = document.getElementsByClassName("dot");
+Array.from(dotGrp).forEach((elem) => {
+  elem.addEventListener("click", () => {
+    let tmpStr = event.target.id.replace("dot", "");
+    showSlides((slideIndex = tmpStr));
+  });
+});
+
