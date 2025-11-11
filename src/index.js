@@ -35,6 +35,10 @@ function showSlides(n) {
   Array.from(slides).forEach((item) => {
     item.style.display = "none";
   });
+  Array.from(dots).forEach((item) => {
+    item.className = item.className.replace(" active", "");
+  });
+
 }
 
 function runShow() {
