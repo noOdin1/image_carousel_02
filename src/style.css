@@ -84,3 +84,13 @@ a {
   background-color: transparent;
 }
 
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-area: bottom;
+  grid-column: 1 / span 8;
+  grid-row: 8 / span 1;
+}
+
