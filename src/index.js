@@ -29,6 +29,7 @@ Array.from(dotGrp).forEach((elem) => {
 
 function showSlides(n) {
   let slides = document.getElementsByClassName("imgSlide");
+  let dots = document.getElementsByClassName("dot");
 
 }
 
