@@ -30,6 +30,7 @@ Array.from(dotGrp).forEach((elem) => {
 function showSlides(n) {
   let slides = document.getElementsByClassName("imgSlide");
   let dots = document.getElementsByClassName("dot");
+  slideIndex = n > slides.length ? 1 : n < 1 ? slides.length : n;
 
 }
 
