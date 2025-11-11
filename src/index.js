@@ -27,3 +27,10 @@ Array.from(dotGrp).forEach((elem) => {
   });
 });
 
+
+
+function runShow() {
+  slideIndex++;
+  showSlides(slideIndex);
+}
+
