@@ -78,3 +78,9 @@ img {
   background-color: rgba(200, 200, 200, 0.5);
 }
 
+a {
+  font-size: 3em;
+  text-decoration: none;
+  background-color: transparent;
+}
+
