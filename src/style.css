@@ -14,3 +14,17 @@
   --image-height: 500px;
   --button-height: 50px;
 }
+#carouselContainer {
+  display: grid;
+  width: 55vw;
+  height: 85vh;
+  margin: auto;
+  margin-top: 2em;
+  overflow: hidden;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas:
+    "left center right"
+    "bottom bottom bottom";
+  border: 1px solid MediumVioletRed;
+}
