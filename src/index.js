@@ -39,6 +39,7 @@ function showSlides(n) {
     item.className = item.className.replace(" active", "");
   });
 
+  slides[slideIndex - 1].style.display = "block";
 }
 
 function runShow() {
